@@ -8,13 +8,15 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="header"> <!-- change tag to header directly, then change the CSS class section to header so that it accommodates. -->
+         <!--  I like to leave it like this, clearly denotes header section -->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav> <!-- I chose the nav class as it best suits information regarding navigation as shown below. -->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
+               
                 <li>
                     <a href="#online-reputation-management">Online Reputation Management</a>
                 </li>
@@ -22,9 +24,18 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </div>
-    <div class="hero"></div>
+
+   <!--<div class="hero"></div> -->           <!-- Why should we attempt to style images within HTML rather than in CSS?-->
+    <figure> 
+   <img src="./assets/images/digital-marketing-meeting.jpg" alt="Group team huddled around table" width="100%" height="800px"
+    margin-bottom: 25px; background-size: cover; background-position: center;>
+    <!-- add a figcaption tag here -->
+</figure>
+<!-- Have a look at placing the <main> tag here, as the content below
+    pertains to the whole large content beneath it, note: you 
+can only use one main tag throughout your code. -->
     <div class="content">
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
